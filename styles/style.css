@@ -219,3 +219,69 @@ hr {
         flex-direction: column;
     }
 }
+
+@media (max-width: 480px) {
+
+
+    .header-container {
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .navber {
+        margin-right: 20px;
+    }
+
+    .navber ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 0px;
+    }
+
+    .navber ul li a {
+        font-size: 12px;
+    }
+
+}
+
+/*  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .header-container {
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .navber {
+        margin-right: 20px;
+    }
+
+    .navber ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 0px;
+    }
+
+}
+
+/* */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .header-container {
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .navber {
+        margin-right: 20px;
+    }
+
+    .navber ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 0px;
+    }
+
+}
